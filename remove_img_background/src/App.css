@@ -1,3 +1,20 @@
+/* general color: #222A34
+
+btn color: #475366
+
+middle dives  top : #2F3A4B;
+
+middle dives middle - #161B21;
+
+font-family: "Aduma Regular";
+________________________________________
+ 
+*/
+@font-face {
+  font-family: "Aduma Regular";
+  src: url(./assets/Aduma\ Regular.ttf);
+}
 .App {
   text-align: center;
+  font-family: "Aduma Regular";
 }
