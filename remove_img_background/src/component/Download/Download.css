@@ -1,0 +1,60 @@
+.download_conteiner {
+  text-align: right;
+  padding: 0px 15px;
+}
+h2 {
+  margin: 0px;
+  padding-top: 10px;
+  text-align: right;
+}
+.hr_download_divider {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-color: #5B6471;
+  width: 85%;
+  border-width: 0px 0px 2px 0px;
+  border-radius: 5px;
+  
+}
+.download_desc {
+  padding: 5px 0px 12.5px 5px;
+}
+.download_btn {
+  padding: 5px 0px;
+  width: 95%;
+  font-size: 12.5px;
+  color: aliceblue;
+  background-color: transparent;
+  border-color: blueviolet;
+  border-left-color: blueviolet;
+  border-radius: 16px;
+  border-width: 2px;
+}
+.download_btn_pro {
+  padding: 5px 0px;
+  width: 95%;
+  font-size: 12.5px;
+  color: aliceblue;
+  background-color: transparent;
+  border-color: blueviolet;
+  border-left-color: blueviolet;
+  border-radius: 16px;
+  border-width: 2px;
+  border-bottom-color: #01dcf6;
+  border-right-color: #01dcf6;
+}
+.download_conteiner p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  color: lightgray;
+}
+.download_conteiner_img {
+  position: relative;
+  right: 0px;
+  top: 14px;
+}
+.checkSingImg {
+  position: relative;
+  top: 3px;
+  right: -5px;
+}
