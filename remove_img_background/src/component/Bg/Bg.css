@@ -64,10 +64,144 @@ middle dives middle - #161B21;
   background-color: #2f3a4b;
   border-radius: 10px;
 }
-.contant_middele {
+.contant_middele_right {
   align-items: center;
   width: 100%;
   height: 80%;
   margin: 39px 0px;
   background-color: #161b21;
+}
+.contant_middele_left {
+  align-items: center;
+  width: 100%;
+  height: 80%;
+
+  background-color: #161b21;
+}
+.bg_btn_cont {
+  display: flex;
+  height: 10px;
+  padding: 20px 0px 0px 0px;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  font-size: 20px;
+  text-align: center;
+}
+.bg_remove_btn {
+  padding-bottom: 7.5px;
+  background-image: url(../../assets/Cleanup\ Edges.png);
+  background-repeat: no-repeat;
+  background-position: 95px 7px;
+  width: 120px;
+  cursor: pointer;
+}
+.bg_orginal_img_btn {
+  padding-bottom: 7.5px;
+  background-image: url(../../assets/Image.png);
+  background-repeat: no-repeat;
+  background-position: 90px 7px;
+  width: 120px;
+  cursor: pointer;
+}
+/* .bg_remove_btn:hover ,.bg_orginal_img_btn:hover {
+  border-bottom: solid;
+  border-bottom-color: #d334ff;
+  } */
+.border_bottom_selected {
+  border-bottom: solid 1px;
+  border-bottom-color: #d334ff;
+}
+
+.footer_text {
+  float: right;
+  padding: 11px;
+
+  font-size: 13px;
+  color: #a9a8ac;
+}
+.footer_terms_btn {
+  background-color: #475366;
+  width: 75px;
+  color: #a9a8ac;
+  padding: 4px 13px 6px 17px;
+  margin: 8px;
+  text-align: right;
+  border-radius: 28px;
+  background-image: url(../../assets/eula.png);
+  background-repeat: no-repeat;
+  background-position: 15px 6px;
+  border: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0); /* Start with no blur */
+  z-index: 999;
+  /* pointer-events: none; */
+  animation: blurAnimation 0.5s forwards; /* Use a CSS animation to gradually increase the blur */
+}
+.popup_eula {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  text-align: center;
+  z-index: 1000;
+  width: 65%;
+  overflow-y:scroll;
+  height: 500px;
+}
+.popup_eula p,.popup_eula h3{
+  text-align: left;
+}
+
+.popup_eula h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+#decline-btn {
+  background-color: #ff5757;
+  color: #fff;
+}
+
+#accept-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+.fade-out {
+  animation: blurAnimation 0.5s b;
+}
+
+@keyframes blurAnimation {
+  from {
+    backdrop-filter: blur(0); /* Start with no blur */
+  }
+  to {
+    backdrop-filter: blur(
+      15px
+    ); /* Gradually increase the blur radius to desired value */
+  }
 }

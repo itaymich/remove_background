@@ -1,0 +1,34 @@
+.disp_img_top_cont {
+  position: absolute;
+}
+.img_bg {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+.disp_img_top_cont .top_comment_text {
+  /* margin-top: 20px; */
+  float: right;
+  color: #d334ff70;
+  font-size: 14px;
+  padding: 10px 25px 0px 0px;
+  background-image: url(../../assets/warning.png);
+  background-repeat: no-repeat;
+  background-position: 276px 14px;
+}
+.color_btn {
+  border: solid rgba(255, 255, 255, 0.609) 1px;
+  color: rgba(255, 255, 255, 0.609);
+  background-color: rgba(199, 92, 160, 0.082);
+  border-radius: 20px;
+  padding: 6px;
+  margin: 7px;
+  width: 75px;
+}
+.colorInput {
+  width: 70px;
+  position: relative;
+  left: -80px;
+  top: 6px;
+  opacity: 0;
+}
