@@ -157,7 +157,7 @@ middle dives middle - #161B21;
   max-width: 80%;
   text-align: center;
   z-index: 1000;
-  width: 65%;
+  width: 400px;
   overflow-y:scroll;
   height: 500px;
 }
